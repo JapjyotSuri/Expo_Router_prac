@@ -6,7 +6,8 @@ import { Stack, Tabs } from 'expo-router'
 const StackLayout = () => {
   return (
    <Stack>
-    <Stack.Screen name="(tabs)" options={{headerShown: false}}></Stack.Screen>
+    <Stack.Screen name="index" ></Stack.Screen>
+    <Stack.Screen name="settings" ></Stack.Screen>
     
     
     
